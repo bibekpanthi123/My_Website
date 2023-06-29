@@ -1,0 +1,3241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://themetum.com/envato/wokoya/sidebar/main/index.html -->
+<html class="no-js" lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Wokoya | Personal Portfolio vCard HTML Template</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="shortcut icon" type="image/x-icon" href="https://themetum.com/envato/wokoya/sidebar/main/img/favicon.png">
+	
+	<!-- ========== Start Stylesheet ========== -->
+	<link href="./bootstrap.min.css" rel="stylesheet">
+	<link href="./fontawesome.min.css" rel="stylesheet">
+	<link href="./bsnav.min.css" rel="stylesheet">
+	<link href="./magnific-popup.css" rel="stylesheet">
+	<link href="./owl.carousel.min.css" rel="stylesheet">
+	<link href="./owl.theme.default.min.css" rel="stylesheet">
+	<link href="./all.min.css" rel="stylesheet">
+	<link href="./animate.css" rel="stylesheet">
+	<link href="./icofont.min.css" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
+	<link href="./responsive.css" rel="stylesheet">
+	<!-- ========== End Stylesheet ========== -->
+<style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style></head>
+
+ <body class="side-header bsnav-has-left-sidebar" data-spy="scroll" data-target=".navbar" data-offset="1">
+
+<!-- Preloader -->
+<div class="preloader" style="display: none;">
+  <div class="lds-ellipsis" style="display: none;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<div class="theme_all_wrap" data-magic-cursor=" " data-color="crimson">
+
+<!-- Document Wrapper   
+=============================== -->
+ <div id="main-wrapper"> 
+	<!-- Start header
+    ============================================= -->
+
+    <header class="header">
+		<div class="main-navigation sd-nav">
+			<div class="navbar navbar-expand-lg bsnav bsnav-sidebar bsnav-scrollspy bsnav-sidebar-left">
+				<a class="navbar-brand mb-20" href="https://themetum.com/envato/wokoya/sidebar/main/index.html">
+					<img src="./profile-avatar.jpg" class="logo-display" alt="thumb">
+				</a>
+				<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse justify-content-sm-center pt-20">
+					<ul class="navbar-nav navbar-mobile mr-0">
+						<li class="nav-item"><a class="nav-link smooth-scroll active" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#home"><i class="icofont-home"></i> Home</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#about"><i class="icofont-contact-add"></i> About</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#service"><i class="icofont-file-document"></i> Experience</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#work"><i class="icofont-briefcase-1"></i> Portfolio</a></li>
+						<!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#feed"><i class="icofont-quote-left"></i>Testimonial</a></li> -->
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#blog"><i class="icofont-blogger"></i> Blog</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#contact"><i class="icofont-envelope"></i> Contact</a></li>
+					</ul>
+				</div>
+				<ul class="footer-social pt-30">
+					<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+			<div class="bsnav-mobile">
+				<div class="bsnav-mobile-overlay"></div>
+				<div class="navbar"><ul class="navbar-nav navbar-mobile mr-0">
+						<li class="nav-item"><a class="nav-link smooth-scroll active" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#home"><i class="icofont-home"></i> Home</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#about"><i class="icofont-contact-add"></i> About</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#service"><i class="icofont-file-document"></i>Experience</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#work"><i class="icofont-briefcase-1"></i> Portfolio</a></li>
+						<!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#feed"><i class="icofont-quote-left"></i>Testimonial</a></li> -->
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#blog"><i class="icofont-blogger"></i> Blog</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#contact"><i class="icofont-envelope"></i> Contact</a></li>
+					</ul></div>
+			</div>
+		</div>
+    </header>
+	  <!-- Header End --> 
+	
+	<div class="clearfix"></div>
+
+<div class="main-area-width">	
+
+	<main class="main">
+		
+		<!-- Start Hero   
+		============================================= -->
+		<div id="home" class="hero-section hero-section-bg">
+			<div class="animate_shape position-relative">
+				<div class="animation_shape position-abolute shape-01"></div>
+				<div class="animation_shape position-abolute shape-02"></div>
+				<div class="animation_shape position-abolute shape-03"></div>
+				<div class="animation_shape position-abolute shape-04"></div>
+				<div class="animation_shape position-abolute shape-05"></div>
+				<div class="animation_shape position-abolute shape-06"></div>
+			</div>
+			<div class="container sidebar-toptext">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="head-top-contact">
+							<span class="phone_contact">+977-9840677581</span>
+							<span class="email_contact">alexis.bibek100@gmail.com</span>							
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="header-serarch-btn float-right">
+							<a class="smooth-scroll btn-2" href="https://themetum.com/envato/wokoya/sidebar/main/index.html#contact">hire me</a>
+						</div>						
+					</div>
+				</div>
+			</div>				
+			<div class="hero-single sidebar-hero-bg">			
+				<div class="container">	<!-- start container --> 	
+					<div class="row">	<!-- start row --> 	
+						<div class="col-md-6 pl-20">	<!-- hero text left --> 	
+							<div class="hero-content wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.6s;">
+								<span class="top-title wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.7s;">Bibek Panthi</span>
+								<div class="typed-strings" style="display: none;">
+									  <p> <span class="type_color">Project Manager</span></p>
+									  <p> <span class="type_color">Marketer</span></p>
+									  <p> <span class="type_color">Business Owner</span></p>
+								</div>
+								<h2 class="text-16 header_type_text text-white mb-2 mb-md-3">
+									I'm <span class="typed"><span class="type_color">Project Manager </span></span><span class="typed-cursor">|</span>
+								</h2>
+								<p class="header-intro-text wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.8s;">I have been working since 2020. I am proficient in project management, user experience researcher, marketing.</p>
+								<div class="hro-btn wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.9s;">
+									<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#" class="theme-btn">
+										Download CV
+									</a>
+								</div>
+							</div>
+						</div>	<!-- hero left text end --> 	
+						<div class="col-md-6">	<!-- hero right img animation --> 	
+							<div class="hero-right wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s;">
+								<img src="./hr-02.png" alt="" class="thumbnail simple-parallax-initialized" style="will-change: transform; transform: translate3d(0px, -3px, 0px); transition: transform 2s cubic-bezier(0, 0, 0, 1) 0s;">
+								<img src="./hr-01.png" alt="" class="thumbnail-2 mt-10 simple-parallax-initialized" style="will-change: transform; transform: translate3d(4px, 0px, 0px); transition: transform 2s cubic-bezier(0, 0, 0, 1) 0s;">
+							</div>
+						</div>	<!-- hero right img animation  end --> 
+					</div>
+				</div>					
+			</div><!-- single Hero End -->
+			<div class="about-scroll-down text-center">
+				<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#about" class="scroll-down-arrow scroll_down smooth-scroll"><i class="icofont-scroll-bubble-down"></i></a>						
+			</div>
+		</div>
+		<!-- End Hero -->
+		
+		<!-- About us
+		============================================= -->
+		<div id="about" class="about-area de-padding">
+			<div class="about-wpr">
+				<div class="container pl-20">	<!-- container --> 
+					<div class="row">	<!-- row --> 
+						<div class="col-md-6 mb-50">
+							<div class="about-left wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.2s;">
+								<div class="about-header-left">
+									<h2 class="about-tl gr-bg wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">
+										2 Years of 
+										<br>
+										Experience
+									</h2>
+									<h4 class="about-tl-2 mb-20">Do you have any project?</h4>
+									<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#contact" class="smooth-scroll btn-3">Let's Talk</a>
+								</div>
+							</div>
+						</div>	<!-- about left text end --> 
+						<div class="col-md-6">
+							<div class="about-right wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s;">
+								<span class="top-title">Bibek Panthi</span>
+								<h2 class="about-tl-3 gr-2">
+									Project management is a testament to the human capacity for achievement
+								</h2>
+								<p>
+									As a project manager, I bring a wealth of experience in delivering successful projects on time and within budget. With a keen eye for detail and a passion for delivering exceptional results, I am adept at managing projects with multiple stakeholders, resources and priorities. My ability to assess and mitigate risks and troubleshoot issues ensures that projects are delivered on time and within scope.
+								</p>
+								<div class="about-cn">
+									<ul>
+										<li><i class="far fa-envelope"></i> alexis.bibek100@gmail.com</li>
+										<li><i class="fab fa-whatsapp"></i> +977-9840677581</li>
+									</ul>
+								</div>
+							</div>								
+						</div>	<!-- about right text end --> 
+					</div>	<!-- end row --> 
+					<div class="row">
+						<div class="col-md-6">
+							<div class="progress-left pt-80">
+								<div class="skill-section">
+									<!-- Progress Bar Start -->
+									<div class="progress-box">
+										<h5>Jira <span class="pull-right">85%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="85" style="width: 85%;"></div>
+										</div>
+									</div>
+									<div class="progress-box">
+										<h5>Microsoft Excel <span class="pull-right">95%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="95" style="width: 95%;"></div>
+										</div>
+									</div>
+									<div class="progress-box">
+										<h5>Fig Jam <span class="pull-right">75%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="75" style="width: 75%;"></div>
+										</div>
+									</div>
+									<!-- End Progressbar -->
+								</div>
+							</div>	
+						</div>	<!-- end col-6 --> 
+						<div class="col-md-6">
+							<div class="progress-right pt-80">
+								<div class="skill-section">
+									<!-- Progress Bar Start -->
+									<div class="progress-box">
+										<h5>Wordpress <span class="pull-right">85%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="85" style="width: 85%;"></div>
+										</div>
+									</div>
+									<div class="progress-box">
+										<h5>Web Design <span class="pull-right">95%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="95" style="width: 95%;"></div>
+										</div>
+									</div>
+									<div class="progress-box">
+										<h5> Git Lab <span class="pull-right">75%</span></h5>
+										<div class="progress" style="opacity: 1; left: 0px;">
+											<div class="progress-bar" role="progressbar" data-width="75" style="width: 75%;"></div>
+										</div>
+									</div>
+									<!-- End Progressbar -->
+								</div>
+							</div>							
+						</div>	<!-- end col-6  --> 
+					</div>	<!-- end row--> 
+				</div>	<!-- end container --> 
+
+			</div>	<!-- end about wrp --> 
+		</div>
+		<!-- About us -->
+		
+		<!-- Start Experience
+		============================================= -->
+		<div class="exp-area de-padding">
+			<div class="container pl-20">
+				<div class="site-title">
+					<h2 class="site-tl">
+						Experience &amp; Education
+					</h2>
+				</div> <!-- end section title --> 
+				<div class="exp-wpr grid-3">
+					<div class="exp-box wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.2s;">
+						<div class="exp-icon one">
+							<i class="icofont-designfloat"></i>
+						</div>
+						<div class="exp-content">
+							<h4>Web Designer</h4>
+							<p>Danson Solutions</p>
+							<span>(2020 - 2020)</span>
+						</div>
+					</div> <!-- end one -->
+					<div class="exp-box wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">
+						<div class="exp-icon two">
+							<i class="icofont-file-python"></i>
+						</div>
+						<div class="exp-content">
+							<h4>Project Manager</h4>
+							<p>All Pasal Public Limited</p>
+							<span>(2021 - 2021)</span>
+						</div>
+					</div> <!-- end two -->
+					<div class="exp-box wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s;">
+						<div class="exp-icon three">
+							<i class="icofont-code"></i>
+						</div>
+						<div class="exp-content">
+							<h4>Project Manager</h4>
+							<p>Ekbana Solutions</p>
+							<span>(2021 - Present)</span>
+						</div>
+					</div> <!-- end three -->
+					<div class="exp-box mt-20 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.2s;">
+						<div class="exp-icon four">
+							<i class="icofont-graduate-alt"></i>
+						</div>
+						<div class="exp-content">
+							<h4>MBA </h4>
+							<p>DAV Business School</p>
+							<span>(2022 - 2024)</span>
+						</div>
+					</div> <!-- end four -->
+					<div class="exp-box mt-20 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">
+						<div class="exp-icon five">
+							<i class="icofont-graduate"></i>
+						</div>
+						<div class="exp-content">
+							<h4>B.Tech in CSE  </h4>
+							<p>Jain University</p>
+							<span>(2016 - 2020)</span>
+						</div>
+					</div> <!-- end five -->
+					<div class="exp-box mt-20 wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s;">
+						<div class="exp-icon six">
+							<i class="icofont-ui-copy"></i>
+						</div>
+						<div class="exp-content">
+							<h4>High School</h4>
+							<p>Mega College</p>
+							<span>(2014 - 2016)</span>
+						</div>
+					</div> <!-- end six -->
+				</div> <!-- end exp-wrp -->
+			</div> <!-- end container -->
+		</div>
+		<!-- End Experience -->
+		
+		<!-- Start Counter
+		============================================= -->
+		<div class="counter-area de-padding">
+			<div class="shape-filter">
+				<div class="shape-filter-one"></div>
+				<div class="shape-filter-two"></div>
+			</div>
+			<div class="container pl-20"> <!-- start container-->
+				<div class="counter-wpr grid-2"> <!-- start counter-wrp -->
+					<div class="counter-left">
+                        <div class="counter-left-pic mt-20">
+								<div class="counter-left-img-area position-relative wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.3s;">
+									<img src="./counter-02.png" alt="" class="thumbnail position-absolute simple-parallax-initialized" style="will-change: transform; transform: translate3d(0px, -69px, 0px); transition: transform 2s cubic-bezier(0, 0, 0, 1) 0s;">
+									<img src="./counter-01.png" alt="" class="thumbnail-2 position-absolute mt-10 img-play-btn simple-parallax-initialized" style="will-change: transform; transform: translate3d(68px, 0px, 0px); transition: transform 2s cubic-bezier(0, 0, 0, 1) 0s;">
+																
+								</div>
+                        </div>
+					</div>
+					<div class="counter-content">
+						<div class="site-title">
+							<h2 class="site-tl wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">
+								My Previous Projects <br> &amp; Clients Speak Out for Me
+							</h2>
+						</div>
+						<div class="counter-counter grid-2">
+							<div class="fun-fact">
+								<span class="fun-icon one"><i class="icofont-calendar"></i></span>
+								<div class="fun-desc">
+									<p class="timer" data-to="2550" data-speed="3000">2550</p>
+									<span class="medium">Working Hours</span>
+								</div>
+							</div>
+							<div class="fun-fact fun-active">
+								<span class="fun-icon two"><i class="icofont-globe"></i></span>
+								<div class="fun-desc">
+									<p class="timer" data-to="5" data-speed="3000">5</p>
+									<span class="medium">Total projects</span>
+								</div>
+							</div>
+							<div class="fun-fact">
+								<span class="fun-icon three"><i class="icofont-bulb-alt"></i></span>
+								<div class="fun-desc">
+									<p class="timer" data-to="3" data-speed="3000">3</p>
+									<span class="medium">Years Journey</span>
+								</div>
+							</div>
+							<div class="fun-fact">
+								<span class="fun-icon four"><i class="icofont-nerd-smile"></i></span>
+								<div class="fun-desc">
+									<p class="timer" data-to="5" data-speed="3000">5</p>
+									<span class="medium">Total Client</span>
+								</div>
+							</div>
+						</div>
+						<div class="hire-btn mt-60"> 
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#contact" class="btn-2 smooth-scroll">
+								hire me
+							</a>
+						</div> <!-- end btn-->
+					</div>
+				</div> <!-- end counter-wrp -->
+			</div> <!-- end container -->
+		</div>
+		<!-- End Counter-->
+		
+		<!-- Start Services
+		============================================= -->
+		<div id="service" class="service-area de-padding">
+			<div class="container pl-20">
+				<div class="site-title text-center"> <!-- service section title -->
+					<span class="top-title">My Responsibilities</span>
+					<h2 class="site-tl">
+						A brief of my Responsibilities
+					</h2>
+				</div>
+				<div class="service-wpr grid-3"> <!-- start service-wpr -->
+					<div class="service-box wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">
+						<div class="sershp1">
+						</div>
+						<div class="service-icon service-one">
+							<i class="icofont-vector-path"></i>
+						</div>
+						<div class="service-info">
+							<h2>Ekbana Solution</h2>
+							<ul>
+								<li>Team Collabration</li>
+								<li>Task Assigment </li>
+								<li>Team and Stakeholder Communication</li>
+								<li>Monitor Resource utilization </li>
+							</ul>
+						</div>
+					</div> <!-- end service one -->
+					<div class="service-box wow fadeInDown" data-wow-duration=".7s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.6s;">
+						<div class="sershp2">
+						</div>
+						<div class="service-icon service-two">
+							<i class="icofont-ui-browser"></i>
+						</div>
+						<div class="service-info">
+							<h2>All Pasal Limited</h2>
+							<ul>
+								<li>Managing changes to project scope, timelines, and budget.</li>
+								<li>Building and maintaining strong relationships with stakeholders</li>
+							</ul>
+						</div>
+					</div> <!-- end service two -->
+					<div class="service-box wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.8s;">
+						<div class="sershp3">
+						</div>
+						<div class="service-icon service-three">
+							<i class="icofont-ui-theme"></i>
+						</div>
+						<div class="service-info">
+							<h2>Danson Solutions</h2>
+							<ul>
+								<li>Developing and implementing digital marketing strategies</li>
+								<li>Developing content for various digital marketing channels</li>
+								<li>Research on Ed Tech products</li>
+							</ul>
+						</div>
+					</div> <!-- end service three -->
+				</div> <!-- end service wrp -->
+			</div> <!-- end container -->
+		</div>
+		<!-- End Services -->
+		
+		<!-- Start Faq
+		============================================= -->
+		<div class="fq-area de-padding">
+			<div class="faq-shape">
+				<div class="thumbnail-2 faq-shape-one simple-parallax-initialized" style="will-change: transform; transform: translate3d(0px, 0px, 0px); transition: transform 2s cubic-bezier(0, 0, 0, 1) 0s;"></div>
+			</div>
+			<div class="container pl-20"> <!-- start container -->
+				<div class="faq-wpr grid-2"> <!-- start faq-wpr -->
+					<div class="fq-left mb-30">
+						<div class="faq-pic wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">
+							<img src="./faqs-1.png" alt="thumb">
+						</div>
+					</div>
+					<div class="fq-right">
+						<div class="site-title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.2s;">
+							<h2 class="site-tl mb-0">
+								People what ask to <br>
+								know more about me ?
+							</h2>
+						</div>
+							<div id="accordion">
+							  <div class="card accordion-item mt-20">
+								<div class="card-header" id="headingOne">
+								  <h5 class="mb-0">
+									<button class="accordion-button btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									  1. What are my primary professional goals and aspirations ?
+									</button>
+								  </h5>
+								</div>
+
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								  <div class="card-body">
+									My primary professional goal is to become a senior project manager within the next five years. I aspire to lead large-scale projects, contribute to organizational growth, and mentor other project managers.
+								  </div>
+								</div>
+							  </div>		<!-- End card -->
+							  
+							  <div class="card accordion-item mt-20">
+								<div class="card-header" id="headingTwo">
+								  <h5 class="mb-0">
+									<button class="accordion-button btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  2. What are your main areas of expertise or professional skills?
+									</button>
+								  </h5>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								  <div class="card-body">
+									My main areas of expertise include project planning and execution, stakeholder management, risk assessment, and team leadership. I have developed strong skills in project scheduling, resource allocation, and problem-solving.
+								  </div>
+								</div>
+							  </div>		<!-- End card -->
+							  
+							  <div class="card accordion-item mt-20">
+								<div class="card-header" id="headingThree">
+								  <h5 class="mb-0">
+									<button class="accordion-button btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+									  3. What motivates and inspires my work or personal life?
+									</button>
+								  </h5>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								  <div class="card-body">
+									I am motivated by the opportunity to make a positive impact and contribute to the success of projects. Seeing the tangible results of my work and witnessing the growth and achievements of the team inspire me.
+								  </div>
+								</div>
+							  </div>		<!-- End card -->
+							  
+							  <div class="card accordion-item mt-20">
+								<div class="card-header" id="headingFour">
+								  <h5 class="mb-0">
+									<button class="accordion-button btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+										4. What are my interests or hobbies outside of work?
+									</button>
+								  </h5>
+								</div>
+								<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+								  <div class="card-body">
+									Outside of work, I enjoy hiking and exploring nature. I find it refreshing and rejuvenating to spend time outdoors. I am also an avid reader and enjoy immersing myself in books on personal development and leadership.
+								  </div>
+								</div>
+							  </div>		<!-- End card -->
+							</div>				
+					</div>
+				</div> <!-- end faq-wpr -->
+			</div> <!-- end container -->
+		</div> 
+		<!-- End Faq -->
+		
+<!-- Start Project Area
+============================================= -->
+<section id="work" class="portfolio_bg de-padding">
+	<div class="container"> <!-- start container -->	
+		<div class="row"> <!-- row -->
+			<div class="col-md-3 pl-20"> <!-- portfolio left menu -->	
+				<div class="site-title work_section_title">
+					<span class="top-title wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.3s;">
+						My Portfolio
+					</span>
+					<h2 class="site-tl wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s;">
+						Story of 
+						<br>
+						Past Works
+					</h2>
+				</div>			
+				<ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
+					<li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
+					<li class="list-inline-item"><a class="" data-filter=".seo">UI Design</a></li>
+					<li class="list-inline-item"><a class="" data-filter=".webdesign">Web design</a></li>
+					<li class="list-inline-item"><a class="" data-filter=".work">Package Design</a></li>
+					<li class="list-inline-item"><a class="" data-filter=".wordpress">Wordpress</a></li>
+				</ul>		
+			</div> <!-- end portfolio menu -->
+			<div class="col-md-9"> <!-- portfolio img -->
+				<div class="container"> <!-- container -->
+					<div class="row mt-4 work-filter" style="position: relative; height: 604.75px;">
+						<div class="col-md-4 work_item work wordpress" style="position: absolute; left: 0px; top: 0px;">
+							<a href="./1.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./1.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						<div class="col-md-4 work_item webdesign wordpress" style="position: absolute; left: 288px; top: 0px;">
+							<a href="./2.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./2.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						<div class="col-md-4 work_item webdesign seo wordpress" style="position: absolute; left: 576px; top: 0px;">
+							<a href="./3.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./3.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						<div class="col-md-4 work_item work wordpress" style="position: absolute; left: 576px; top: 258px;">
+							<a href="./4.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./4.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						<div class="col-md-4 work_item webdesign wordpress" style="position: absolute; left: 0px; top: 317px;">
+							<a href="./5.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./5.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						<div class="col-md-4 work_item webdesign seo wordpress" style="position: absolute; left: 288px; top: 410px;">
+							<a href="./6.png" class="img-zoom">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="./6.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<p class="mb-2">Category</p>
+										<h4 class="mb-0">Project Title</h4>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+				</div>
+			</div> <!-- end container -->
+		</div> <!-- end portfolio img -->
+	</div>
+	</div>
+</section>
+		<!-- End Project Area -->
+		
+		<!-- Start Feedback
+		============================================= -->
+		<!-- <div id="feed" class="feedback-area de-padding">
+			<div class="container pl-20"> <!-- start container -->
+				<!-- <div class="site-title text-center">
+					<span class="top-title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;">
+						Testimonial
+					</span>
+					<h2 class="site-tl wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.7s;">
+						People What Are Saying 
+					</h2>
+				</div> end section title --> -->
+				<!-- <div class="feedback-wpr feed-sldr owl-carousel owl-theme owl-loaded owl-drag"> start feedback-wpr -->
+					 <!-- end single feedback -->
+					 <!-- end single feedback -->
+					 <!-- end single feedback -->
+				<!-- <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1795px, 0px, 0px); transition: all 0s ease 0s; width: 4190px;"><div class="owl-item cloned" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p> -->
+							<!-- Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./2.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p>
+							Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./3.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div><div class="owl-item" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p> -->
+							<!-- Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./1.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div><div class="owl-item active" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p>
+							Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./2.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div> -->
+						<!-- </div>
+					</div></div><div class="owl-item active" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p>
+							Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./3.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i> -->
+						<!-- </div>
+						<p>
+							Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./1.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 568.5px; margin-right: 30px;"><div class="feedback-box">
+						<div class="feedback-pc">
+							<i class="icofont-quote-left"></i>
+						</div>
+						<p>
+							Printing and typesetting industry Lorem Ipsum has the industry's standard dummy text ever the since the 1500s when an unknown took.
+						</p>
+						<div class="feedback-desc">
+							<img src="./2.jpg" alt="audiobook maker">
+							<div class="feedback-bio">
+								<h5 class="fz-20 l-h-1">Devid Nikolas</h5>
+								<span class="fz-16 l-h-1">Chairman, Square Inc</span>
+							</div>
+						</div>
+					</div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="icofont-long-arrow-left"></i></div><div class="owl-next"><i class="icofont-long-arrow-right"></i></div></div><div class="owl-dots disabled"></div></div> <!-- end feedback-wpr -->
+			<!-- </div> end container --> 
+		<!-- </div> -->
+		<!-- End Feedback -->
+		
+		<!-- Start Pricing
+		============================================= -->
+		<div class="price-area de-padding">
+			<div class="container pl-20"> <!-- start container -->
+				<div class="site-title text-center">
+					<span class="top-title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">
+						My Price
+					</span>
+					<h2 class="site-tl wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;">
+						How Much I Charge?
+					</h2>
+				</div>
+				<div class="price-wrapper grid-3"> <!-- start price-area -->
+					<div class="price-box mt-20 wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;"> <!-- single price -->
+						<div class="price-head">
+							<div class="price-icon price-icon-one">
+								<i class="icofont-package"></i>
+							</div>
+							<div class="price-rib">
+								<span>Design Package</span>
+							</div>
+							<div class="price-value">
+								<h2><span>$</span>99</h2>
+							</div>
+						</div>
+						<div class="price-info">
+							<ul>
+								<li><i class="icofont-check"></i> Business Hosting</li>
+								<li><i class="icofont-check"></i>Branding &amp; Illustration </li>
+								<li><i class="icofont-check"></i>Social Media Banner</li>
+								<li><i class="icofont-check"></i>Web UI</li>
+							</ul>
+						</div>
+						<div class="price-bottom">
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#" class="btn-2">
+								Buy Now
+							</a>
+						</div>
+					</div> <!-- end single price -->
+					<div class="price-box mt-20 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s;"> <!-- single price -->
+						<div class="price-head">
+							<div class="price-icon price-icon-two">
+								<i class="icofont-newspaper"></i>
+							</div>
+							<div class="price-rib">
+								<span>Advance </span>
+							</div>
+							<div class="price-value">
+								<h2><span>$</span>199</h2>
+							</div>
+						</div>
+						<div class="price-info">
+							<ul>
+								<li><i class="icofont-check"></i>PSD to Wordpress</li>
+								<li><i class="icofont-check"></i>Web Design</li>
+								<li><i class="icofont-check"></i>Web Development</li>
+								<li><i class="icofont-check"></i>10 hours of support</li>
+							</ul>
+						</div>
+						<div class="price-bottom">
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#" class="btn-2 bt-ac">
+								Buy Now
+							</a>
+						</div>
+					</div> <!-- end single price -->
+					<div class="price-box mt-20 wow fadeInRight" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;"> <!-- single price -->
+						<div class="price-head">
+							<div class="price-icon price-icon-three">
+								<i class="icofont-license"></i>
+							</div>
+							<div class="price-rib">
+								<span>Ecommerce Solution</span>
+							</div>
+							<div class="price-value">
+								<h2><span>$</span>799</h2>
+							</div>
+						</div>
+						<div class="price-info">
+							<ul>
+								<li><i class="icofont-check"></i>Woocommerce Store</li>
+								<li><i class="icofont-check"></i>Ecommerce Web</li>
+								<li><i class="icofont-check"></i>Data Management</li>
+								<li><i class="icofont-check"></i>PSD to Woocommerce</li>
+							</ul>
+						</div>
+						<div class="price-bottom">
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#" class="btn-2">
+								Buy Now
+							</a>
+						</div>
+					</div> <!-- end single price-->
+				</div> <!-- end price-area -->
+			</div> <!-- end container -->
+		</div>
+		<!-- End Pricing -->
+		
+		<!-- Start Promo
+		============================================= -->
+		<div class="promo-area position-relative">
+			<div class="container pl-20"> <!-- start container -->
+				<div class="promo-wpr grid-2">
+					<div class="promo-left wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">
+						<h2 class="site-tl mb-30">
+							If you have any project, please consult with me. 
+						</h2>
+						<a href="https://themetum.com/envato/wokoya/sidebar/main/contact.html" class="btn-2 wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;">
+							Let’s Talk
+						</a>
+					</div>
+					<div class="promo-right wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.6s;">
+						<img src="./project.png" alt="thumb">
+					</div>
+				</div>
+			</div> <!-- end container -->
+		</div>
+		<!-- End Promo -->
+		
+		<!-- Start Blog
+		============================================= -->
+		<!-- <div id="blog" class="blog-area de-padding">
+			<div class="container pl-20">
+				<div class="site-title text-center">
+					<span class="top-title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;">Blog Posts</span>
+					<h2 class="site-tl wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.7s;">
+						Newly Posted Articles
+					</h2>
+				</div>
+				<div class="blog-wpr blog-sldr owl-carousel owl-theme owl-loaded owl-drag">
+					 <!-- end single blog -->
+					 <!-- end single blog -->
+					 <!-- end single blog -->
+                     <!-- end single blog -->
+					 <!-- end single blog -->
+				<!-- <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1995px, 0px, 0px); transition: all 0s ease 0s; width: 4389px;"><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./3(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 04 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic"> -->
+							<!-- <img src="./1(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i>09 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./2(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i>12 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item" style="width: 369px; margin-right: 30px;"><div class="blog-box"> <!-- start single blog -->
+						<!-- <div class="blog-pic">
+							<img src="./1(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 02 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5> -->
+							<!-- </a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div> -->
+						<!-- </div>
+					</div></div><div class="owl-item" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./2(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 07 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title"> -->
+									<!-- How to make website from 
+									scrach easily
+								</h5> -->
+							<!-- </a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div> -->
+						<!-- </div> -->
+					<!-- </div></div><div class="owl-item active" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./3(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 04 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a> --> -->
+							<!-- <div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div> -->
+						<!-- </div>
+					</div></div><div class="owl-item active" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./1(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta"> -->
+								<!-- <li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i>09 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a>
+							<div class="blog-btn"> -->
+								<!-- <a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item active" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./2(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i>12 June, 2021</li>
+							</ul> -->
+							<!-- <a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box"> <!-- start single blog -->
+						<!-- <div class="blog-pic">
+							<img src="./1(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 02 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5>
+							</a> -->
+							<!-- <div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div> -->
+						<!-- </div>
+					</div></div><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box">
+						<div class="blog-pic">
+							<img src="./2(1).png" alt="thumb">
+						</div> -->
+						<!-- <div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 07 June, 2021</li>
+							</ul>
+							<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html"> -->
+								<!-- <h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5> --> -->
+							<!-- </a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div></div><div class="owl-item cloned" style="width: 369px; margin-right: 30px;"><div class="blog-box"> -->
+						<!-- <div class="blog-pic">
+							<img src="./3(1).png" alt="thumb">
+						</div>
+						<div class="blog-info">
+							<ul class="blog-meta">
+								<li><i class="icofont-user-alt-4"></i> Philip Hobs</li>
+								<li><i class="icofont-clock-time"></i> 04 June, 2021</li>
+							</ul> -->
+							<!-- <a href="https://themetum.com/envato/wokoya/sidebar/main/single.html">
+								<h5 class="blog-title">
+									How to make website from 
+									scrach easily
+								</h5> -->
+							<!-- </a>
+							<div class="blog-btn">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/single.html" class="btn-4 hv">
+									<i class="icofont-arrow-right"></i>
+								</a>
+							</div> -->
+						<!-- </div> --> -->
+					<!-- </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev"><i class="icofont-long-arrow-left"></i></div><div class="owl-next"><i class="icofont-long-arrow-right"></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div> -->
+			<!-- </div> end container -->
+		<!-- </div> -->
+		<!-- End Blog -->
+	
+	<div class="clearfix"></div>
+	
+	<!-- Start Footer
+	============================================= -->
+	<footer id="contact" class="footer">
+		<div class="container pl-20"> <!-- start container -->
+			<div class="site-title text-center pt-80">
+				<span class="top-title wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.6s;">Contact</span>
+				<h2 class="site-tl wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.8s;">
+					Get in Touch
+				</h2>
+			</div>
+			<div class="row"> <!-- start row -->
+				<div class="col-md-7">
+					<div class="contact-area mb-20">
+						<div class="contact-left mt-20">
+							<form class="contact-form" id="contact-form" action="https://themetum.com/envato/wokoya/sidebar/main/php/contact.php" method="POST">						
+								<div class="row g-4">
+									<div class="col-md-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.2s;">
+										<input type="text" name="subject" class="form-control input-style-2" placeholder="Subject">
+									</div>
+									<div class="col-md-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.3s;">
+										<input type="text" name="name" class="form-control input-style-2" placeholder="Your name">
+									</div>
+									<div class="col-md-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">
+										<input type="email" name="email" class="form-control input-style-2" placeholder="Your Email Here">
+									</div>
+									<div class="col-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.5s;">
+										<textarea class="form-control input-style-2" name="message" placeholder="Drop Message" data-gramm="false" wt-ignore-input="true"></textarea>
+									</div>
+									<div class="col-4 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s;">
+										<button type="submit" class="theme-btn mt-30">
+											Send Me
+										</button>
+									</div>
+									<div class="col-8 mt-50">
+										<p class="form-message"></p>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div> <!-- end contact-area -->
+				</div> <!-- end col-7 -->
+				<div class="col-md-5">
+					<div class="contact-right mt-40">
+						<ul>
+							<li>
+								<div class="addr mt-10 wow fadeInUp" data-wow-duration=".3s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s;">
+									<div class="contact-right-icon one">
+										<i class="icofont-google-map"></i>
+									</div>
+									<p class="mb-0 mt-10">
+										Bhaisipati, 
+										<br>
+										Lalitpur, Nepal
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="addr mt-10 wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;">
+									<div class="contact-right-icon two">
+										<i class="icofont-envelope"></i>
+									</div>
+									<p class="mb-0 mt-10">
+										alexis.bibek100@gmail.com
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="addr mt-10 wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.7s;">
+									<div class="contact-right-icon three">
+										<i class="icofont-brand-whatsapp"></i>
+									</div>
+									<p class="mb-0 mt-10">
+										+977-9840677581
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>				
+				</div> <!-- end col-5 -->	
+			</div> <!-- end row -->
+		</div> <!-- end container -->
+		<div class="copyright-area"> <!-- start copyright -->
+			<div class="container"> <!-- container -->
+				<div class="row">
+					<div class="col-md-5 mt-50">
+						<div class="copyright-left wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.7s;">
+							<span class="copyright-text">all rights reserved by themetum.com 2021.</span>
+						</div>					
+					</div> <!-- end col-5 -->
+					<div class="col-md-4 mt-50">
+						<div class="copyright-right wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.8s;">
+							<div class="copyright-menu">
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#">Faqs   /</a>
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#">privacy policy   /</a>
+								<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#">services</a>
+							</div>					
+						</div>
+					</div> <!-- end col-4 -->
+					<div class="col-md-3 mt-50">
+						<div class="copyright-social wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.9s;">
+							<ul class="footer-social">
+								<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>				
+					</div> <!-- end col-3 -->
+				</div>
+			</div> <!-- end container -->
+		</div> <!-- end copyright area -->
+	</footer>	
+	<!-- End Footer-->	
+	</main>		
+</div>	
+	<!-- Start Scroll top
+	============================================= -->
+	<a href="https://themetum.com/envato/wokoya/sidebar/main/index.html#home" id="scrtop" class="smooth-scroll" style="display: none;"><i class="icofont-rounded-up"></i></a>
+	<!-- End Scroll top-->
+	
+<!-- CURSOR -->
+		<div class="mouse-cursor cursor-outer" style="visibility: visible; transform: translate(630px, 3px);"></div>
+		<div class="mouse-cursor cursor-inner" style="visibility: visible; transform: translate(630px, 3px);"></div>
+		<!-- /CURSOR -->
+	</div>	
+</div>	<!-- Mouse Cursor End --> 	
+  
+	<!-- jQuery Frameworks 
+    ============================================= -->
+	
+	<script src="./jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./jquery.appear.min.js"></script>
+    <script src="./parallaxie.min.js"></script>
+    <script src="./simpleParallax.min.js"></script>
+    <script src="./jquery.easing.min.js"></script>
+    <script src="./waypoints.min.js"></script>
+    <script src="./jquery.magnific-popup.min.js"></script>
+    <script src="./progress-bar.min.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script src="./wow.min.js"></script>
+    <script src="./jquery.mixitup.min.js"></script>
+    <script src="./isotope.pkgd.min.js"></script>
+    <script src="./imagesloaded.pkgd.min.js"></script>
+    <script src="./count-to.js"></script>
+    <script src="./contact-form.js"></script>
+    <script src="./typed.min.js"></script>
+    <script src="./bsnav.min.js"></script>
+	<script src="./YTPlayer.min.js"></script>
+    <script src="./main.js"></script>
+	
+	
+<style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style><quillbot-extension-portal><template shadowrootmode="open"><div></div></template></quillbot-extension-portal></body><quillbot-extension-root><template shadowrootmode="open" shadowrootdelegatesfocus><div id="qb-ext-sr"><div style="display: none;"><button class="MuiButton-root MuiButton-primary MuiButton-primaryPrimary MuiButton-sizeSmall MuiButton-primarySizeSmall MuiButtonBase-root extn-css-1mbubfb" tabindex="0" type="button" appearance="brand"><span class="MuiTouchRipple-root extn-css-w0pj6f"></span></button></div><style data-styled="active" data-styled-version="5.3.5">*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;--tw-border-opacity:1;border-color:rgba(229,231,235,var(--tw-border-opacity));--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-blur:var(--tw-empty,/*!*/ /*!*/);--tw-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-invert:var(--tw-empty,/*!*/ /*!*/);--tw-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-drop-shadow:var(--tw-empty,/*!*/ /*!*/);--tw-filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);--tw-backdrop-blur:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-invert:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-opacity:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}body{margin:0;font-family:inherit;line-height:inherit;}hr{height:0;color:inherit;border-top-width:1px;}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted;}b,strong{font-weight:bolder;}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sub{bottom:-0.25em;}sup{top:-0.5em;}table{text-indent:0;border-color:inherit;border-collapse:collapse;}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0;color:inherit;}button,select{text-transform:none;}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button;}::-moz-focus-inner{border-style:none;padding:0;}:-moz-focusring{outline:1px dotted ButtonText;}:-moz-ui-invalid{box-shadow:none;}legend{padding:0;}progress{vertical-align:baseline;}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto;}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}summary{display:list-item;}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0;}button{background-color:transparent;background-image:none;}fieldset{margin:0;padding:0;}ol,ul{list-style:none;margin:0;padding:0;}img{border-style:solid;}textarea{resize:vertical;}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#9ca3af;}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;}input::placeholder,textarea::placeholder{color:#9ca3af;}button,[role="button"]{cursor:pointer;}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit;}pre,code,kbd,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle;}img,video{max-width:100%;height:auto;}[hidden]{display:none;}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes spin{to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@-webkit-keyframes ping{75%,100%{-webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);opacity:0;}}@keyframes ping{75%,100%{-webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);opacity:0;}}@-webkit-keyframes pulse{50%{opacity:.5;}}@keyframes pulse{50%{opacity:.5;}}@-webkit-keyframes bounce{0%,100%{-webkit-transform:translateY(-25%);-ms-transform:translateY(-25%);transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);animation-timing-function:cubic-bezier(0.8,0,1,1);}50%{-webkit-transform:none;-ms-transform:none;transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);animation-timing-function:cubic-bezier(0,0,0.2,1);}}@keyframes bounce{0%,100%{-webkit-transform:translateY(-25%);-ms-transform:translateY(-25%);transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);animation-timing-function:cubic-bezier(0.8,0,1,1);}50%{-webkit-transform:none;-ms-transform:none;transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);animation-timing-function:cubic-bezier(0,0,0.2,1);}}</style></div><style id="common-css">[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+:root {
+  --new: #499557;
+  --new-hover: #41894e;
+  --new-secondary: #71b657;
+  --new-filter: saturate(150%) hue-rotate(25deg) brightness(92%);
+  --new-filter-hover: brightness(90%);
+  --new-banner: #6aab76;
+  --new-banner-hover: #65986f;
+
+  --traditional-filter: none;
+  --traditional-filter-hover: none;
+  --traditional-secondary: #8aad67;
+  --traditional: #849e63;
+  --traditional-hover: #687b50;
+  --traditional-banner: #99b576;
+  --traditional-banner-hover: #799655;
+
+  --primary: var(--new);
+  --secondary: var(--new-secondary);
+  --primary-hover: var(--new-hover);
+  --image-filter: var(--new-filter);
+  --image-filter-hover: var(--new-filter-hover);
+  --banner: var(--new-banner);
+  --banner-hover: var(--new-banner-hover);
+
+  --default-font: Lato, sans-serif;
+}
+
+body {
+  background: #fff;
+  justify-content: center;
+  text-rendering: optimizelegibility;
+  margin: 0 !important;
+}
+
+.mobile-quill-bottom-controls > div {
+  min-width: 48px;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .title {
+  width: 500px;
+  font-size: 1.5rem;
+  display: inline-block;
+} */
+
+.btn {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+/* hide google re-captcha */
+
+.go-premium-btn {
+  width: 150px;
+  text-align: center;
+  padding: 4px 20px !important;
+  margin: auto;
+  font-weight: bold !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+.login-offer-text {
+  margin: -2px 2px;
+}
+
+.green-text {
+  transition: all 0.15s;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.green-text:hover {
+  color: var(--primary-hover);
+}
+
+.word-prompt-items {
+  display: flex;
+}
+
+.article-sentence {
+  display: inline;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  transition: all 0.15s;
+  /* padding: 4.5px 0px; */
+}
+
+.similarity-score {
+  color: black;
+  font-size: 0.65em;
+  margin-left: 5px;
+}
+
+.error-message {
+  color: #ee1212;
+  font-family: Lato, serif;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 18px;
+  width: 100%;
+  display: block;
+}
+
+.success-message {
+  color: #00ff00;
+  font-family: Lato, serif;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 18px;
+}
+
+.color-scale {
+  width: 100%;
+  height: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  margin-top: 6px;
+  margin-left: -1px;
+}
+
+.color-button {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  margin-top: -2px;
+  margin: 8px 8px;
+  transition: all 0.1s;
+}
+
+.color-button-inside {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin-top: -2px;
+  margin: 2px 2px;
+}
+
+.article-color-button {
+  background-color: #f8f8f8;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  margin-top: -2px;
+  margin: 3px 4px;
+  transition: all 0.1s;
+}
+
+.article-color-button-inside {
+  background-color: #f8f8f8;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: -2px;
+  margin: 1px 1px;
+  transition: all 0.1s;
+}
+
+.recaptcha-container {
+  position: absolute;
+}
+
+#example1 {
+  transition: all 0.1s;
+}
+
+.processing-payment {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.my-tooltip {
+  line-height: 20px;
+  font-size: 0.9em;
+  width: 210px;
+  text-align: center;
+  transition: all 0s;
+  z-index: 9000000;
+}
+
+.my-tooltip > h6 {
+  line-height: 0px;
+  margin-top: 18px;
+  font-size: 0.9em;
+  margin-bottom: 18px;
+  filter: brightness(100);
+  text-align: center;
+  transition: all 0s;
+}
+
+.p-lock {
+  margin-left: 1px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.69;
+}
+
+.ap-lock {
+  width: 12px;
+  height: 12px;
+  opacity: 0.69;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.strength-list {
+  display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+  margin-left: 4px;
+}
+
+.strength-list-row {
+  display: flex;
+  cursor: pointer;
+}
+
+.strength-tag {
+  color: rgb(86, 86, 86);
+  font-size: 0.8em;
+  line-height: 33px;
+  font-weight: bold;
+}
+
+.priority-divider {
+  border-top: 1px solid rgb(153, 153, 153);
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  margin-left: 12%;
+  margin-right: auto;
+}
+
+.credit-cards {
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.credit-cards img {
+  padding-right: 5px;
+}
+
+.paypal-logo-click {
+  cursor: pointer;
+}
+
+.article-copy-textarea {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 1em;
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+  cursor: default;
+}
+*/
+/* Track */
+/* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: gray;
+} */
+
+/* Loader css */
+#overlay {
+  background: #000000;
+  /* color: #666666; */
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: 0.4;
+}
+
+.spinner {
+  margin: 0 auto;
+  height: 64px;
+  width: 64px;
+  animation: rotate 0.8s infinite linear;
+  border: 5px solid;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+.hotkey-command {
+  /* color: #8f8f8f !important; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*================ new css code for new project ====================== */
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 12px;
+  width: 100%;
+}
+
+.extHeader {
+  /* background: #f1f7f3; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.maximizeouticon {
+  width: 35px;
+  background: #828282;
+  height: 3px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.kebabBtn {
+  padding: 6px 0px;
+  text-align: right;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  :root {
+    --new: #499557;
+    --new-hover: #41894e;
+    --new-secondary: #71b657;
+    --new-filter: saturate(150%) hue-rotate(25deg) brightness(92%);
+    --new-filter-hover: brightness(90%);
+    --new-banner: #6aab76;
+    --new-banner-hover: #65986f;
+
+    --traditional-filter: none;
+    --traditional-filter-hover: none;
+    --traditional-secondary: #8aad67;
+    --traditional: #849e63;
+    --traditional-hover: #687b50;
+    --traditional-banner: #99b576;
+    --traditional-banner-hover: #799655;
+
+    --primary: var(--new);
+    --secondary: #71b657;
+    --primary-hover: #41894e;
+    --image-filter: var(--new-filter);
+    --image-filter-hover: var(--new-filter-hover);
+    --banner: var(--new-banner);
+    --banner-hover: var(--new-banner-hover);
+
+    --default-font: Lato, sans-serif;
+  }
+
+  body {
+    text-rendering: optimizelegibility;
+    margin: 0 !important;
+  }
+
+  .manual-payment-container {
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 0px solid #499557;
+    border-radius: 6px;
+    margin-top: 20px;
+    min-height: 162px;
+  }
+
+  .processing-payment {
+    position: absolute;
+    background-color: #ccc;
+    opacity: 0.4;
+    height: 100%;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .__react_component_tooltip.show {
+    opacity: 1;
+    transition: all 0s;
+  }
+
+  .green-text {
+    transition: all 0.15s;
+    color: #499557;
+    cursor: pointer;
+  }
+
+  .green-text:hover {
+    color: #41894e;
+  }
+}
+
+/* Forcing font everywhere to be open sans. This not working*/
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  overscroll-behavior-y: contain;
+  background: #fff;
+}
+
+/*
+using in commented code
+.nd-input-toast-container {
+  bottom: 25px;
+  width: calc(100% - 20px);
+  background: #2c2d33;
+  text-align: center;
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 0px 0px 5px 5px;
+  margin: 2px 5px 5px 5px;
+  color: white;
+}*/
+
+.nd-word {
+  transition: all 0.05s;
+  position: relative;
+}
+
+/* #inputText[placeholder]:empty::before { // check
+  content: attr(placeholder);
+  color: #8497aa;
+} */
+
+#inputText[placeholder]:empty:focus::before {
+  content: '';
+}
+
+/* #inputBoxSummarizer[placeholder]:empty::before {
+  content: attr(placeholder);
+  color: #dcdcdc;
+} */
+
+#inputBoxSummarizer[placeholder]:empty:focus::before {
+  content: '';
+}
+
+/* ============= new design 2 css ================= */
+
+/* start of CSS for splitter */
+.Resizer {
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Pane {
+  display: flex;
+}
+
+/* .Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+} */
+
+.extensionMidContainerWithScroll .Pane2 {
+  height: 40%;
+}
+
+.Resizer.horizontal {
+  height: 3px;
+  margin: -2.5px 0 -3.5px 0;
+  cursor: row-resize;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  min-height: 3px;
+}
+
+.Resizer.horizontal:hover {
+  background-color: #5f6368;
+}
+
+.Resizer.vertical {
+  width: 7px;
+  margin-right: -4px;
+  border-right: 4px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+  border-bottom: 0px;
+}
+
+.Resizer.vertical:hover {
+  border-right: 4px solid rgba(0, 0, 0, 1);
+  width: 7px;
+}
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+/* =========== new design 3 =============== */
+
+.root-container {
+  flex-direction: column;
+  flex-wrap: unset !important;
+  display: flex;
+  min-height: calc(100vh - 280px);
+  /* background-color: #fff; */
+  padding-top: 25px !important;
+  padding-bottom: 30px !important;
+}
+
+.auth-root {
+  /* background-color: rgba(249, 250, 255); */
+  min-height: calc(100vh - 280px);
+}
+
+.mid-container {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+.page-header {
+  /* color: #4f4f4f; */
+  text-align: center;
+}
+
+.page-header:first-child,
+.page-header > p:first-child {
+  font-size: 28px !important;
+  text-align: center;
+}
+
+.home-container-gray {
+  /* background-color: #f1f1f1; */
+  min-height: unset;
+  padding-bottom: 40px !important;
+}
+
+.nd-mobile-container {
+  padding: 0px !important;
+  padding-top: 0px !important;
+  /* background: #fff; */
+}
+
+.nd-mobile-container-focused-content {
+  padding-top: 0px !important;
+}
+
+.home-container-premium {
+  min-height: calc(100vh - 60px);
+}
+
+.qbp-d-flex {
+  display: flex !important;
+}
+
+.qbp-pb50 {
+  padding-bottom: 50px !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.b-shadow {
+  box-shadow: none !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+/* == start from here === */
+.qbp-pb10 {
+  padding-bottom: 10px !important;
+}
+
+.qbp-pt20 {
+  padding-top: 20px !important;
+}
+
+.qbp-pb20 {
+  padding-bottom: 20px !important;
+}
+
+.qbp-textCenter {
+  text-align: center !important;
+}
+
+.qbp-mx16 {
+  margin: 0 16px !important;
+}
+
+.qbp-pb20 {
+  padding-bottom: 20px !important;
+}
+
+.qbp-py20 {
+  padding: 20px 0 !important;
+}
+
+.qbp-textYellow {
+  color: #ffb800;
+}
+
+.qbp-semibold {
+  font-weight: 600 !important;
+}
+
+.qbp-settings-item {
+  display: flex;
+  padding: 25px 0 15px !important;
+  justify-content: space-between;
+  border-bottom: 1px solid #8f8f8f;
+  color: #000;
+  align-items: center;
+}
+
+.card-pad {
+  padding: 10px 0 1px 0 !important;
+}
+
+.qbp-settings-item:last-child {
+  border-bottom: 0;
+}
+
+.details-subtitle {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+  font-size: 14px !important;
+}
+
+.settting-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-subtitle-highlight {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  /* font-weight: bold !important; */
+  font-size: 14px !important;
+}
+
+.premium-container {
+  padding-top: 0 !important;
+}
+
+/*************************** Login/Sign up popup css ******************************/
+
+.auth-container {
+  max-width: 480px;
+  width: 100%;
+
+  /* background-color: white; */
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 480px) {
+  .auth-root {
+    padding: 0px 15px;
+  }
+}
+
+.auth-container-top-border {
+  height: 5px;
+  width: 100%;
+  background: rgb(33, 150, 83);
+  background: linear-gradient(90deg, rgba(33, 150, 83, 1) 11.34%, rgba(41, 113, 254, 1) 100%);
+}
+
+.social-auth-btn {
+  margin: auto !important;
+  position: relative;
+}
+
+.social-auth-btn img {
+  position: absolute;
+  left: 15px;
+  height: 16px;
+}
+
+.auth-btn {
+  line-height: 32px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  height: 45px;
+}
+
+.qbp-useraccount-text {
+  color: #8a8a8a;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.qbp-reg-input {
+  border: 1px solid #a6a5a5;
+  color: #5b5b5b;
+  width: 100%;
+  display: block;
+  float: unset;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 14px;
+  transition: ease all 0.3s;
+  height: 45px;
+}
+
+.qbp-reg-input:focus {
+  box-shadow: 0px 0 16px 0 rgba(0, 0, 0, 0.4);
+  outline: none !important;
+}
+
+.qbp-error-message {
+  font-size: 11px;
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  color: #ee1212;
+}
+
+.qbp-error-message1 {
+  font-size: 11px;
+  padding-bottom: 10px;
+  color: #ee1212;
+}
+
+.qbp-success-message {
+  color: #27b027;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.qbp-prem-input {
+  font-weight: normal;
+  font-size: 14px;
+  color: #151515 !important;
+  background-color: #fff;
+  width: 100%;
+  font-family: arial;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  height: 40px;
+  padding: 0px 15px;
+  outline: 0;
+}
+
+.login-drawer {
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.style01 {
+  font-size: 1.5em;
+  font-weight: 600;
+  /* color: #fff; */
+}
+
+.linkstyle01 {
+  color: #fff;
+  padding: 0 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.flipperTextContainer {
+  padding: 0px 32px 0px 15px;
+  /* border-left: 1px solid #e0e0e0;*/
+  /* color: rgb(0, 0, 0, 0.75); */
+}
+
+.flipperTextContainer:hover {
+  /* color: black; */
+}
+
+.top-tabs .MuiButtonBase-root {
+  /* display: inline-block !important; */
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.payment-status {
+  font-weight: 600;
+  color: #a1a197;
+}
+
+/**************************Survey popup css stuff **********************/
+.survey-modal {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  display: flex;
+  min-width: 100vw;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  z-index: 1201;
+}
+
+.survey-container {
+  background-color: white;
+  max-width: 650px;
+  padding: 10px 15px 15px !important;
+  margin: auto !important;
+  position: relative !important;
+}
+
+@media (max-width: 350px) {
+  .survey-container {
+    margin: auto 12 !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .survey-container {
+    max-width: 350px;
+  }
+}
+
+.survey-header {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+.survey-close-btn {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.survey-question {
+  font-size: 13px !important;
+  padding-bottom: 10px;
+}
+
+.so-checkbox-label {
+  font-size: 12px !important;
+  display: flex;
+  padding-bottom: 8px;
+  color: #5f6368;
+}
+
+.survey-submit-btn {
+  color: #2971fe !important;
+  font-size: 14px !important;
+  float: right;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.unsubscribe-reason {
+  width: 100%;
+}
+
+.steps {
+  font-weight: bold !important;
+}
+
+.feedback-textarea {
+  width: 100%;
+  height: 91px;
+  padding: 5px;
+  font-size: 0.87rem;
+  font-family: 'Open Sans', sans-serif;
+}
+/* .prompt-container {
+  background-color: #fff;
+  position: absolute;
+  top: 23px;
+  z-index: 1150;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  padding-bottom: 0;
+  transition: all 0.15s;
+
+  box-shadow: 0px 1px 1px #999;
+} */
+
+/* ============= do not remove this css =============*/
+.grecaptcha-badge {
+  visibility: hidden;
+}
+/* =========== do not remove css inside comment area ========== */
+
+/*================== responsive codes ============== */
+
+@media (max-width: 960px) {
+  .terms-main-container ol {
+    margin: 10px 0px;
+    padding-left: 20px;
+    word-break: break-word;
+  }
+
+  .terms-main-container ol li {
+    margin: 10px 0px;
+    padding-left: 20px;
+    word-break: break-word;
+  }
+}
+
+.CardElementHolder {
+  border: 1px #c4c4c4 solid;
+  border-radius: 3px;
+  margin-top: 8px;
+  padding: 11px 15px 10px;
+}
+
+.CardField-child {
+  background: #f00 !important;
+}
+
+/* ======= new global css start ============= */
+p {
+  font-size: 16px;
+}
+a {
+  color: #2971fe;
+}
+
+.btn-link {
+  /* color: #2971fe !important; */
+  cursor: pointer;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.pageTitle {
+  font-size: 30px;
+  margin: 30px 15px 15px;
+  line-height: 41px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.terms-main-container ol li::marker {
+  font-size: 16px;
+  font-weight: bold;
+}
+.terms-main-container ol li p b {
+  font-weight: 600;
+}
+
+/* .CbHosted--focus {
+  border: 1px solid #499557 !important;
+} */
+
+.chargebee-overwrites::placeholder {
+  color: #a0a0a0 !important;
+}
+
+.shadow-container {
+  height: 6px;
+  width: 100%;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.fix-error {
+  background: rgba(73, 149, 87, 0.2) !important;
+}
+
+#RESEARCH_EDITOR:before {
+  color: #828282;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 0 auto;
+}
+
+#RESEARCH_EDITOR * {
+  max-width: 672px;
+  white-space: pre-wrap !important;
+}
+/* .grammarbot-popover-root {
+  pointer-events: none !important;
+} */
+
+.page-wrapper {
+  padding: var(--main-editor__mce-content-body--padding-y) var(--main-editor__mce-content-body--padding-x);
+}
+
+#grammarbot:before {
+  color: #828282;
+  /* margin-left: 137px;
+  margin-right: 138px; */
+}
+
+#wordCounterBot:before {
+  color: #828282;
+}
+
+#grammarbot a {
+  color: inherit; /*To add dark mode compatibility */
+}
+
+.grammarbot-correction-card-ignore-button {
+  padding-top: 13px;
+}
+.grammarbot-status-icons {
+  font-size: 40px !important;
+}
+
+.correction-card-wrapper {
+  margin-top: -10px;
+  padding-top: 8px;
+}
+
+.grammarbot-fix-all {
+  position: absolute !important;
+  top: -48px !important;
+  right: 30% !important;
+  z-index: 1 !important;
+}
+
+.notepadeditor:before {
+  color: #828282;
+  margin-left: 0px;
+}
+
+.notepadeditor {
+  width: 100%;
+  font-size: 13px !important;
+  margin-top: 12px !important;
+}
+
+.notepadeditor > p {
+  margin-block-start: 0em !important;
+  font-size: 13px !important;
+}
+
+#main-editor-parent {
+  /* ! THESE VARIABLES ARE BEING USED IN SCRIPTS */
+  --main-editor__mce-content-body--padding-x: 90px;
+  --main-editor__mce-content-body--padding-y: 90px;
+}
+
+#main-editor > .mce-content-body {
+  /* padding: var(--main-editor__mce-content-body--padding-y, 36px)
+    var(--main-editor__mce-content-body--padding-x, 36px); */
+  min-height: calc(100vh - 190px);
+
+  /* color: #252525; */
+}
+
+#rough-editor {
+  width: 100%;
+  overflow: auto;
+}
+
+#rough-editor > .mce-content-body {
+  height: calc(100vh - 122px);
+  width: 100%;
+  margin: 14px;
+  color: #252525;
+  overflow: auto;
+}
+
+#main-editor > .mce-content-body {
+  word-break: break-word !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+#main-editor > .mce-content-body > p,
+#main-editor > .mce-content-body > .page-wrapper > p {
+  font-size: 14px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+sup,
+sub {
+  white-space: pre-wrap !important;
+}
+
+.tox-tinymce {
+  border: none !important;
+  position: absolute !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+#main-editor .tox-editor-header {
+  border: none !important;
+  border-bottom: 1px solid !important;
+}
+
+#toolbar-location .tox-editor-header {
+  border: none !important;
+  top: 20px !important;
+  left: 14px !important;
+}
+
+#toolbar-location .tox-toolbar {
+  background: none !important;
+}
+
+.tox .tox-toolbar-overlord {
+  background: none !important;
+}
+
+.tox-notification {
+  display: none !important;
+}
+
+.tox .tox-tbtn svg {
+  fill: #666666 !important;
+}
+
+.tox .tox-tbtn--disabled svg,
+.tox .tox-tbtn--disabled:hover svg,
+.tox .tox-tbtn:disabled svg,
+.tox .tox-tbtn:disabled:hover svg {
+  fill: rgba(34, 47, 62, 0.5) !important;
+}
+
+.tox .tox-tbtn__select-label {
+  color: #666666 !important;
+}
+
+.tox .tox-autocompleter {
+  max-width: 35em !important;
+}
+
+.tox .tox-autocompleter .tox-menu {
+  max-width: 35em !important;
+}
+
+.tox.tox-tinymce--toolbar-sticky-on .tox-editor-header {
+  box-shadow: none !important;
+}
+
+.tox-editor-header {
+  border-right: none !important;
+}
+
+.tox-toolbar__primary {
+  background: none !important;
+  /* box-shadow: 0px 1px 8px 0px rgba(31, 31, 31, 0.15) !important; */
+  /* border-bottom: 1px solid #ccc !important; */
+  /* border-top: 1px solid #ccc !important; */
+  /* padding-left: 15px !important; */
+  width: 100% !important;
+}
+
+.tox-toolbar__group {
+  border: none !important;
+  /* box-shadow: 2px -1px 3px -2px rgba(31, 31, 31, 0.15) !important; */
+}
+
+.tox-toolbar__group::after {
+  content: url('/images/coWriter/line.svg');
+}
+
+.tox-toolbar__group:last-child:after {
+  content: '';
+}
+
+.tox .tox-menu.tox-collection.tox-collection--list {
+  width: max-content;
+}
+
+.tox-toolbar__primary > .tox-toolbar__group:last-child {
+  box-shadow: none !important;
+}
+
+.quillSettingSpace {
+  -webkit-transition: all 0.1s ease-in-out !important;
+  -moz-transition: all 0.1s ease-in-out !important;
+  -o-transition: all 0.1s ease-in-out !important;
+  transition: all 0.1s ease-in-out !important;
+  margin-top: 26px !important;
+}
+
+.tox-tbtn,
+.tox-tbtn__select-label {
+  cursor: pointer !important;
+}
+
+.tox-tbtn--disabled {
+  cursor: not-allowed !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 26px 16px 0px 20px;
+  }
+}
+
+.showFadeEffect {
+  --animation-time: 2s;
+  animation: opacity-fade var(--animation-time) !important;
+}
+
+.dataRefHidden {
+  display: none !important;
+}
+
+.pulseLoader {
+  content: ' ';
+  width: 90px;
+  height: 12px;
+  display: inline-block;
+  background-color: #ccc;
+  animation: new-animation 1s infinite;
+  vertical-align: text-bottom;
+  border-radius: 3px;
+  margin-left: -5px;
+}
+
+@keyframes new-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes opacity-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#doc-title {
+  padding: 46px 0px 13px 137px;
+  width: 70%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+  content: attr(placeholder);
+  pointer-events: none;
+  display: block; /* For Firefox */
+  color: #828282 !important;
+}
+
+[contenteditable='true']:empty:before {
+  content: attr(placeholder);
+  pointer-events: none;
+  display: block; /* For Firefox */
+  color: #828282 !important;
+}
+
+.red-underline {
+  border-bottom: #fb3f4b 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.red-underline:hover {
+  background-color: #fb3f4c14;
+  border-radius: 2px;
+}
+
+.red-underline.error-hovered {
+  background-color: #fb3f4c14;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.blue-underline {
+  border-bottom: #0067c5 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue-underline:hover {
+  background-color: #0067c514;
+  border-radius: 2px;
+}
+
+.blue-underline.error-hovered {
+  background-color: #0067c514;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.magenta-underline {
+  border-bottom: #8051ff 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.magenta-underline:hover {
+  background-color: #8051ff24;
+  border-radius: 2px;
+}
+
+.magenta-underline.error-hovered {
+  background-color: #8051ff24;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+#fixed-toolbar-container .tox-tinymce-inline .tox-editor-header {
+  border: none !important;
+}
+/*
+  Citation Marker style
+*/
+#main-editor .CitationMarkerStyle {
+  padding: 3px;
+}
+
+.CitationMarkerStyle_Burst {
+  background-color: #ffefde !important;
+  color: orange !important;
+}
+
+.reduce-margin-block-end {
+  margin-block-end: -1em !important;
+}
+
+#grammar-checker pre {
+  white-space: pre-wrap;
+}
+
+#word-counter pre {
+  white-space: pre-wrap;
+}
+
+.sound-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sound-wave {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sound-wave .audioOnWithSpeech {
+  display: block;
+  width: 5px;
+  margin-right: 1px;
+  height: 90px;
+  background: #499557;
+  animation: sound 0ms -800ms linear infinite alternate;
+  transition: height 0.8s;
+}
+
+.sound-wave .audioOff {
+  display: block;
+  width: 5px;
+  margin-right: 0px;
+  height: 12px;
+  background: #9f9f9f;
+}
+
+.sound-wave .audioOnWithoutSpeech {
+  display: block;
+  width: 5px;
+  margin-right: 0px;
+  height: 12px;
+  background: #499557;
+}
+
+@keyframes sound {
+  0% {
+    opacity: 0.35;
+    height: 6px;
+  }
+  100% {
+    opacity: 1;
+    height: 46px;
+  }
+}
+
+@keyframes sound2 {
+  0% {
+    opacity: 0.35;
+    height: 6px;
+  }
+  100% {
+    opacity: 1;
+    height: 120px;
+  }
+}
+
+.audioOnWithSpeech:nth-child(1) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(2) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(3) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(4) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(5) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(6) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(7) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.audioOnWithSpeech:nth-child(8) {
+  height: 36px;
+  animation-duration: 219ms;
+}
+
+.audioOnWithSpeech:nth-child(9) {
+  height: 40px;
+  animation-duration: 287ms;
+}
+
+.audioOnWithSpeech:nth-child(10) {
+  height: 46px;
+  animation-duration: 242ms;
+}
+
+.audioOnWithSpeech:nth-child(11) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(12) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(13) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(14) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(15) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(16) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(17) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.audioOnWithSpeech:nth-child(18) {
+  height: 36px;
+  animation-duration: 219ms;
+}
+
+.audioOnWithSpeech:nth-child(19) {
+  height: 40px;
+  animation-duration: 287ms;
+}
+
+.audioOnWithSpeech:nth-child(20) {
+  height: 46px;
+  animation-duration: 242ms;
+}
+
+.audioOnWithSpeech:nth-child(21) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(22) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(23) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(24) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(25) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(26) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(27) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.mce-content-body [contentEditable='false'][data-mce-selected] {
+  cursor: not-allowed;
+  outline: 3px solid #f1f1f1 !important;
+}
+
+.display--none {
+  display: none;
+}
+
+/* [title='Font sizes'] {
+  width: 65px !important;
+} */
+
+.wave .dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  /* margin-right: 1px; */
+  background: #499557;
+  animation: wave 1s linear infinite;
+}
+.wave .dot:nth-child(1) {
+  animation-delay: -0.9s;
+}
+.wave .dot:nth-child(2) {
+  animation-delay: -0.7s;
+}
+.wave .dot:nth-child(3) {
+  animation-delay: -0.5s;
+}
+
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: initial;
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+    button {
+      font-size: 12px;
+    }
+    p { 
+      color: black; 
+      font-size: 12px; 
+    }
+    input {
+      color: black; 
+      font-size: 12px; 
+      background: white;
+    }
+    textarea {
+      color: black; 
+      font-size: 12px; 
+    }
+    checkbox {
+      background: white;
+    }
+    </style><style><style data-emotion="extn-css" data-s=""></style></style></template></quillbot-extension-root></html>
